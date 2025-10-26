@@ -23,5 +23,6 @@ public class opmode extends OpMode {
             number = number - 50;
         }
         telemetry.addData("Number", number);
+        telemetry.update();
     }
 }
